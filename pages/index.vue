@@ -11,10 +11,7 @@
       </VVHeroImageContainer>
       <section class="vv-cta-buttons">
         <VVCtaButton link :href="REGISTRATION_URL" target="_blank">Register</VVCtaButton>
-        <span style="width: 60px;"></span>
         <VVCtaButton link :href="CFP_URL" target="_blank">Give a Lightning Talk</VVCtaButton>
-        <span style="width: 60px;"></span>
-      
         <VVCtaButton link :href="FAQ_URL">FAQ</VVCtaButton>
       </section>
       <v-col cols="8" class="content-container">
@@ -137,8 +134,7 @@ export default {
 
   .vv-cta-buttons {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 150px;
     max-width: 830px;
