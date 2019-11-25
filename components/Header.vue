@@ -5,7 +5,7 @@
     </nuxt-link>
     <div class="spacer"/>
     <v-toolbar-title class="vv-logo">
-      <a href="https://workshops.vuevixens.org/workshop/CODE_OF_CONDUCT.html" class="vv-logo" style="color: white;">
+      <a href="https://workshops.vuevixens.org/workshop/CODE_OF_CONDUCT.html" class="vv-logo" style="color: white; font-size: 16px;">
         Code of Conduct
       </a>
     </v-toolbar-title>
