@@ -4,9 +4,11 @@
       <img src="~/assets/images/logo.png" alt="VueVixens Logo" /> Vue Vixens Day US 2020
     </nuxt-link>
     <div class="spacer"/>
-    <nuxt-link tag="v-toolbar-title" class="vv-logo" to="https://workshops.vuevixens.org/workshop/CODE_OF_CONDUCT.html">
-      Code of Conduct
-    </nuxt-link>
+    <v-toolbar-title class="vv-logo">
+      <a href="https://workshops.vuevixens.org/workshop/CODE_OF_CONDUCT.html" class="vv-logo" style="color: white;">
+        Code of Conduct
+      </a>
+    </v-toolbar-title>
   </v-app-bar>
 </template>
 
