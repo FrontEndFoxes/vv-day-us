@@ -7,7 +7,7 @@ export const REGISTRATION_URL =
 export const CFP_URL =
   'https://docs.google.com/forms/d/e/1FAIpQLSeINlRZRk3QrRPJLFJAjIk_IgEiEvp6NuKDcKp4L_AILbs1zw/viewform?usp=sf_link'
 export const FAQ_URL = 'https://www.vuevixens.org/about'
-export const SPONSOR_URL = './assets/vvday-us-2020.pdf'
+export const SPONSOR_URL = './vvday-us-2020.pdf'
 export const HEADER_IMAGE = require('./assets/images/austin-city-darken.jpeg')
 
 export const PRESENTERS_DATA = [
