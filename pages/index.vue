@@ -24,13 +24,18 @@
             <h1>Meet our Presenters</h1>
           </template>
         </VVPresenters>
-        <VVTweetTimeline profile="VueVixens">
+        <!--<VVTweetTimeline profile="VueVixens">
           <template #header>
             <h1>The excitement is building...</h1>
             <h2>See what people are saying!</h2>
           </template>
-        </VVTweetTimeline>
+        </VVTweetTimeline>-->
       </v-col>
+      <VVSponsors class="pt-10 pb-10 grey lighten-2">
+        <template #header>
+          <h2>Thank You to our Sponsors</h2>
+        </template>
+      </VVSponsors>
     </v-col>
   </v-row>
 </template>
@@ -40,7 +45,7 @@ import VVHeroImageContainer from '../components/HeroImageContainer'
 import VVCtaButton from '../components/CtaButton'
 import VVLogo from '../components/Logo'
 import VVPresenters from '../components/presenters/Presenters'
-import VVTweetTimeline from '../components/TweetTimeline'
+import VVSponsors from '../components/Sponsors'
 import {
   REGISTRATION_URL,
   CFP_URL,
@@ -54,7 +59,7 @@ export default {
     VVHeroImageContainer,
     VVCtaButton,
     VVLogo,
-    VVTweetTimeline,
+    VVSponsors,
     VVPresenters
   },
   computed: {
@@ -115,13 +120,13 @@ h2 {
 }
 
 .content-container {
-  max-width: 90vw;
-  margin: 20px auto 0;
+  max-width: 100vw;
+  margin: 10px auto 0;
   @media (max-width: 800px) {
   }
 
   @media (min-width: 1200px) {
-    max-width: 880px;
+    max-width: 1100px;
   }
 
   & > section:not(:first-child) {

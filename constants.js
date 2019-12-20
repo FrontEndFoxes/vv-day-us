@@ -10,20 +10,27 @@ export const FAQ_URL = 'https://www.vuevixens.org/about'
 export const SPONSOR_URL = './vvday-us-2020.pdf'
 export const HEADER_IMAGE = require('./assets/images/austin-city-darken.jpeg')
 
+export const SPONSORS_DATA = [
+  {
+    name: `Microsoft`,
+    logo: require('./assets/images/sponsors/microsoft.png')
+  },
+  {
+    name: `FrontendMasters`,
+    logo: require('./assets/images/sponsors/frontendmasters.png')
+  }
+]
+
 export const PRESENTERS_DATA = [
   {
     name: `Sarah Drasner`,
     talkTitle: `"The Art of Code Comments"`,
     photo: require('./assets/images/speakers/sarah-drasner_400x400.jpg'),
     twitterUrl: `https://twitter.com/sarah_edo`,
-    keynote: true
+    keynote: true,
+    opener: true
   },
-  {
-    name: `Jen Looper`,
-    talkTitle: `"The Humanist's Guide to Deep Learning"`,
-    photo: require('./assets/images/speakers/jen-looper_400x400.png'),
-    twitterUrl: `https://twitter.com/jenlooper`
-  },
+
   {
     name: `Maria Lamardo`,
     talkTitle: `"When Life Takes Your Scrubs; npm run build"`,
@@ -32,8 +39,22 @@ export const PRESENTERS_DATA = [
   },
   {
     name: `Diana Rodriguez`,
-    talkTitle: `"Fostering Success in Tech: The DevOps culture approach"`,
-    photo: require('./assets/images/speakers/diana-rodriguez-manrique_400x400.jpg'),
+    talkTitle: `"Fostering Success in Tech: The DevOps Culture Approach"`,
+    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png'),
     twitterUrl: `https://twitter.com/cotufa82`
+  },
+  {
+    name: `Kim Maida`,
+    talkTitle: `"7 Secrets of Highly Successful Developers"`,
+    photo: require('./assets/images/speakers/kim-maida_400x400.jpg'),
+    twitterUrl: `https://twitter.com/kimmaida`
+  },
+  {
+    name: `Jen Looper`,
+    talkTitle: `"Vue Vixens: Past, Present and Future"`,
+    keynote: true,
+    closer: true,
+    photo: require('./assets/images/speakers/jen-looper_400x400.png'),
+    twitterUrl: `https://twitter.com/jenlooper`
   }
 ]
