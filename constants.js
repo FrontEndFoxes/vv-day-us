@@ -38,16 +38,28 @@ export const PRESENTERS_DATA = [
     twitterUrl: `https://twitter.com/MariaLamardo`
   },
   {
+    name: `Kim Maida`,
+    talkTitle: `"7 Secrets of Highly Successful Developers"`,
+    photo: require('./assets/images/speakers/kim-maida_400x400.jpg'),
+    twitterUrl: `https://twitter.com/kimmaida`
+  },
+  {
     name: `Diana Rodriguez`,
     talkTitle: `"Fostering Success in Tech: The DevOps Culture Approach"`,
     photo: require('./assets/images/speakers/diana-rodriguez_400x400.png'),
     twitterUrl: `https://twitter.com/cotufa82`
   },
   {
-    name: `Kim Maida`,
-    talkTitle: `"7 Secrets of Highly Successful Developers"`,
-    photo: require('./assets/images/speakers/kim-maida_400x400.jpg'),
-    twitterUrl: `https://twitter.com/kimmaida`
+    name: `Jess Sachs`,
+    talkTitle: `"Avoiding a Rewrite: Techniques to Progressively Adopt Vue"`,
+    photo: require('./assets/images/speakers/jess-sachs_400x400.png'),
+    twitterUrl: `https://twitter.com/_JessicaSachs`
+  },
+  {
+    name: `Tessa`,
+    talkTitle: `"A Brief Introduction to the Art of the Fox Lunch"`,
+    photo: require('./assets/images/speakers/tessa_400x400.jpg'),
+    twitterUrl: `https://twitter.com/halftes6`
   },
   {
     name: `Jen Looper`,
