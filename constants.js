@@ -12,12 +12,19 @@ export const HEADER_IMAGE = require('./assets/images/austin-city-darken.jpeg')
 
 export const SPONSORS_DATA = [
   {
-    name: `Microsoft`,
-    logo: require('./assets/images/sponsors/microsoft.png')
+    name: `FrontendMasters`,
+    logo: require('./assets/images/sponsors/frontendmasters.png'),
+    link: `https://www.frontendmasters.com`
   },
   {
-    name: `FrontendMasters`,
-    logo: require('./assets/images/sponsors/frontendmasters.png')
+    name: `Microsoft`,
+    logo: require('./assets/images/sponsors/microsoft.png'),
+    link: `https://www.microsoft.com`
+  },
+  {
+    name: `Storyblok`,
+    logo: require('./assets/images/sponsors/storyblok.png'),
+    link: `https://www.storyblok.com`
   }
 ]
 

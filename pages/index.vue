@@ -9,7 +9,7 @@
           <h2
             class="vv-subtitle"
             style="margin-top: 10px;"
-          >A one-day conference presented by foxy people who identify as women.</h2>
+          >A free one-day conference presented by foxy people who identify as women.</h2>
         </div>
       </VVHeroImageContainer>
       <section class="vv-cta-buttons">

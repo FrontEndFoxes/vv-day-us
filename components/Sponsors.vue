@@ -9,7 +9,7 @@
         text-align="center"
         justify="center"
       >
-        <v-card white height="100%" p-10>
+        <v-card white p-10 @click="goToSponsor(sponsor.link)">
           <v-img :src="sponsor.logo" />
         </v-card>
       </v-col>
@@ -24,6 +24,11 @@ export default {
   computed: {
     sponsors() {
       return SPONSORS_DATA || []
+    }
+  },
+  methods: {
+    goToSponsor(link) {
+      window.open(link, '_blank')
     }
   }
 }
