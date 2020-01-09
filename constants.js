@@ -28,9 +28,48 @@ export const SPONSORS_DATA = [
   }
 ]
 
+export const LIGHTNINGS_DATA = [
+  {
+    name: `Diana Rodriguez`,
+    id: 1,
+    talkTitle: `"Fostering Success in Tech: The DevOps Culture Approach"`,
+    twitterUrl: `https://twitter.com/cotufa82`,
+    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
+  },
+  {
+    name: `Amarachi Amaechi`,
+    id: 2,
+    talkTitle: `"Networking the Right Way"`,
+    twitterUrl: `https://twitter.com/AmarachiAmaechi`,
+    photo: require('./assets/images/speakers/amarachi-amaechi.jpg')
+  }
+  /*{
+    name: `Diana Rodriguez`,
+    id: 3,
+    talkTitle: `"DevOps Culture"`,
+    twitterUrl: `https://twitter.com/cotufa82`,
+    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
+  },
+  {
+    name: `Diana Rodriguez`,
+    id: 4,
+    talkTitle: `"DevOps Culture"`,
+    twitterUrl: `https://twitter.com/cotufa82`,
+    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
+  },
+  {
+    name: `Diana Rodriguez`,
+    id: 5,
+    talkTitle: `"DevOps Culture"`,
+    twitterUrl: `https://twitter.com/cotufa82`,
+    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
+  }*/
+]
+
 export const PRESENTERS_DATA = [
   {
     name: `Sarah Drasner`,
+    id: 6,
     talkTitle: `"The Art of Code Comments"`,
     photo: require('./assets/images/speakers/sarah-drasner_400x400.jpg'),
     twitterUrl: `https://twitter.com/sarah_edo`,
@@ -40,36 +79,42 @@ export const PRESENTERS_DATA = [
 
   {
     name: `Maria Lamardo`,
+    id: 7,
     talkTitle: `"When Life Takes Your Scrubs; npm run build"`,
     photo: require('./assets/images/speakers/maria-lamardo_400x400.jpg'),
     twitterUrl: `https://twitter.com/MariaLamardo`
   },
   {
     name: `Kim Maida`,
+    id: 8,
     talkTitle: `"7 Secrets of Highly Successful Developers"`,
     photo: require('./assets/images/speakers/kim-maida_400x400.jpg'),
     twitterUrl: `https://twitter.com/kimmaida`
   },
   {
-    name: `Diana Rodriguez`,
-    talkTitle: `"Fostering Success in Tech: The DevOps Culture Approach"`,
-    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png'),
-    twitterUrl: `https://twitter.com/cotufa82`
+    name: `Michele Cynowicz`,
+    id: 9,
+    talkTitle: `"Successful Remote Work Culture"`,
+    photo: require('./assets/images/speakers/michele-cynowicz_400x400.jpg'),
+    twitterUrl: `https://twitter.com/michelecynowicz`
   },
   {
     name: `Jess Sachs`,
+    id: 10,
     talkTitle: `"Avoiding a Rewrite: Techniques to Progressively Adopt Vue"`,
     photo: require('./assets/images/speakers/jess-sachs_400x400.png'),
     twitterUrl: `https://twitter.com/_JessicaSachs`
   },
   {
     name: `Tessa`,
+    id: 11,
     talkTitle: `"A Brief Introduction to the Art of the Fox Lunch"`,
     photo: require('./assets/images/speakers/tessa_400x400.jpg'),
     twitterUrl: `https://twitter.com/halftes6`
   },
   {
     name: `Jen Looper`,
+    id: 12,
     talkTitle: `"Vue Vixens: Past, Present and Future"`,
     keynote: true,
     closer: true,

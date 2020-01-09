@@ -15,7 +15,6 @@
       <section class="vv-cta-buttons">
         <VVCtaButton link :href="REGISTRATION_URL" target="_blank">Register</VVCtaButton>
         <VVCtaButton link :href="SPONSOR_URL" target="_blank">Sponsor</VVCtaButton>
-        <VVCtaButton link :href="CFP_URL" target="_blank">CFP</VVCtaButton>
         <VVCtaButton link :href="FAQ_URL">FAQ</VVCtaButton>
       </section>
       <v-col cols="8" class="content-container">
@@ -24,16 +23,10 @@
             <h1>Meet our Presenters</h1>
           </template>
         </VVPresenters>
-        <!--<VVTweetTimeline profile="VueVixens">
-          <template #header>
-            <h1>The excitement is building...</h1>
-            <h2>See what people are saying!</h2>
-          </template>
-        </VVTweetTimeline>-->
       </v-col>
       <VVSponsors class="pt-10 pb-10 grey lighten-2">
         <template #header>
-          <h2>Thank You to our Sponsors</h2>
+          <h2>Sponsors</h2>
         </template>
       </VVSponsors>
     </v-col>
@@ -45,6 +38,7 @@ import VVHeroImageContainer from '../components/HeroImageContainer'
 import VVCtaButton from '../components/CtaButton'
 import VVLogo from '../components/Logo'
 import VVPresenters from '../components/presenters/Presenters'
+
 import VVSponsors from '../components/Sponsors'
 import {
   REGISTRATION_URL,
