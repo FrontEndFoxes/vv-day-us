@@ -1,8 +1,8 @@
 <template>
-  <v-card max-width="450" class="mx-auto">
-    <v-list three-line>
+  <v-card>
+    <v-list>
       <v-list-item :key="lightning.id" @click>
-        <v-list-item-avatar size="100">
+        <v-list-item-avatar size="80">
           <v-img :src="lightning.photo"></v-img>
         </v-list-item-avatar>
 

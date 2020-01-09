@@ -35,10 +35,7 @@
 
     <v-row justify="center">
       <v-col
-        cols="6"
-        md="2"
         v-for="lightning in lightnings"
-        style="max-width: 300px"
         :key="lightning.id"
         text-align="center"
         justify="center"

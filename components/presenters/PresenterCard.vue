@@ -1,5 +1,5 @@
 <template>
-  <v-card @click="openPresenterLink" max-width="300px" height="100%" align="center">
+  <v-card @click="openPresenterLink">
     <v-img :src="presenter.photo" :alt="`Photo of {{ presenter.name }}`"></v-img>
 
     <h2>{{ presenter.name }}</h2>
