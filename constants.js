@@ -14,17 +14,26 @@ export const SPONSORS_DATA = [
   {
     name: `FrontendMasters`,
     logo: require('./assets/images/sponsors/frontendmasters.png'),
-    link: `https://www.frontendmasters.com`
+    link: `https://www.frontendmasters.com`,
+    level: 'platinum'
   },
   {
     name: `Microsoft`,
     logo: require('./assets/images/sponsors/microsoft.png'),
-    link: `https://www.microsoft.com`
+    link: `https://www.microsoft.com`,
+    level: 'platinum'
   },
   {
     name: `Storyblok`,
     logo: require('./assets/images/sponsors/storyblok.png'),
-    link: `https://www.storyblok.com`
+    link: `https://www.storyblok.com`,
+    level: 'platinum'
+  },
+  {
+    name: `Vue Mastery`,
+    logo: require('./assets/images/sponsors/vuemastery.png'),
+    link: `https://www.vuemastery.com`,
+    level: 'silver'
   }
 ]
 
@@ -94,7 +103,7 @@ export const PRESENTERS_DATA = [
   {
     name: `Michele Cynowicz`,
     id: 9,
-    talkTitle: `"Successful Remote Work Culture"`,
+    talkTitle: `"Building a Successful Remote Work Culture"`,
     photo: require('./assets/images/speakers/michele-cynowicz_400x400.jpg'),
     twitterUrl: `https://twitter.com/michelecynowicz`
   },
