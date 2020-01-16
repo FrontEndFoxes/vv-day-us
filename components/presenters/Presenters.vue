@@ -44,6 +44,21 @@
       </v-col>
     </v-row>
 
+    <h2>Workshops</h2>
+
+    <v-row justify="center">
+      <v-col
+        style="max-width: 300px"
+        height="300px"
+        v-for="workshop in workshops"
+        :key="workshop.id"
+        text-align="center"
+        justify="center"
+      >
+        <VVWorkshopCard :workshop="workshop" />
+      </v-col>
+    </v-row>
+
     <h2>Closing Keynote</h2>
     <v-row justify="center">
       <v-col
@@ -66,15 +81,20 @@ import { PRESENTERS_DATA } from '../../constants'
 import VVPresenterCard from './PresenterCard'
 import { LIGHTNINGS_DATA } from '../../constants'
 import VVLightningCard from './LightningCard'
+import { WORKSHOPS_DATA } from '../../constants'
+import VVWorkshopCard from './WorkshopCard'
 
 export default {
-  components: { VVPresenterCard, VVLightningCard },
+  components: { VVPresenterCard, VVLightningCard, VVWorkshopCard },
   computed: {
     presenters() {
       return PRESENTERS_DATA || []
     },
     lightnings() {
       return LIGHTNINGS_DATA || []
+    },
+    workshops() {
+      return WORKSHOPS_DATA || []
     }
   }
 }

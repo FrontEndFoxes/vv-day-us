@@ -66,13 +66,24 @@ export const LIGHTNINGS_DATA = [
     twitterUrl: `https://twitter.com/cotufa82`,
     photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
   },
+  */
+]
+
+export const WORKSHOPS_DATA = [
   {
-    name: `Diana Rodriguez`,
-    id: 5,
-    talkTitle: `"DevOps Culture"`,
-    twitterUrl: `https://twitter.com/cotufa82`,
-    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
-  }*/
+    name: `Chloe Condon`,
+    id: 1,
+    talkTitle: `"Build a Fake Boyfriend App with Azure and Twilio"`,
+    photo: require('./assets/images/speakers/chloe-condon_400x400.jpg'),
+    twitterUrl: `https://twitter.com/chloecondon`
+  },
+  {
+    name: `Kristin Ruben`,
+    id: 2,
+    talkTitle: `"Build a Music App with the Vue 3 Composition API"`,
+    photo: require('./assets/images/speakers/kristin-ruben_400x400.jpg'),
+    twitterUrl: `https://twitter.com/chloecondon`
+  }
 ]
 
 export const PRESENTERS_DATA = [

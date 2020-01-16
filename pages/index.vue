@@ -85,12 +85,15 @@ h2 {
 }
 h3 {
   font-size: 1.7rem;
-  padding-top: 10px;
+}
+h4 {
+  font-size: 1.2rem;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 500;
   font-family: 'Futura-CondensedMedium', 'Helvetica Neue', Arial, sans-serif !important;
   color: #34485d;
