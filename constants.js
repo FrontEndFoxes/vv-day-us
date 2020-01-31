@@ -30,6 +30,12 @@ export const SPONSORS_DATA = [
     level: 'platinum'
   },
   {
+    name: `Cloudinary`,
+    logo: require('./assets/images/sponsors/cloudinary.png'),
+    link: `https://www.cloudinary.com`,
+    level: 'gold'
+  },
+  {
     name: `Vue Mastery`,
     logo: require('./assets/images/sponsors/vuemastery.png'),
     link: `https://www.vuemastery.com`,
