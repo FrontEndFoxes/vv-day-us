@@ -4,7 +4,6 @@
       <VVHeroImageContainer class="text-center header-image" :image="HEADER_IMAGE">
         <div class="content">
           <VVLogo class="homepage-logo" />
-          <h1 class="vv-heading where-header">Austin, TX</h1>
           <h1 class="vv-subheading when-header">March 5, 2020</h1>
           <h2>Capital Factory</h2>
           <h3>701 Brazos St, Austin, TX 78701</h3>

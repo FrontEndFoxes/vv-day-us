@@ -11,8 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.9.5",
+    "nuxt": "^2.11.0",
+    "vue": "^2.6.11",
     "vue-i18n": "^8.15.0"
   },
   "devDependencies": {
