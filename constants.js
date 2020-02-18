@@ -57,22 +57,14 @@ export const LIGHTNINGS_DATA = [
     talkTitle: `"Networking the Right Way"`,
     twitterUrl: `https://twitter.com/AmarachiAmaechi`,
     photo: require('./assets/images/speakers/amarachi-amaechi.jpg')
-  }
-  /*{
-    name: `Diana Rodriguez`,
-    id: 3,
-    talkTitle: `"DevOps Culture"`,
-    twitterUrl: `https://twitter.com/cotufa82`,
-    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
   },
   {
-    name: `Diana Rodriguez`,
-    id: 4,
-    talkTitle: `"DevOps Culture"`,
-    twitterUrl: `https://twitter.com/cotufa82`,
-    photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
-  },
-  */
+    name: `Tessa Mero`,
+    id: 3,
+    talkTitle: `"Joining a Developer Experts Program to Leverage Your Career"`,
+    twitterUrl: `https://twitter.com/TessaMero`,
+    photo: require('./assets/images/speakers/tessa-mero.jpg')
+  }
 ]
 
 export const WORKSHOPS_DATA = [
@@ -89,6 +81,13 @@ export const WORKSHOPS_DATA = [
     talkTitle: `"Build a Music App with the Vue 3 Composition API"`,
     photo: require('./assets/images/speakers/kristin-ruben_400x400.jpg'),
     twitterUrl: `https://twitter.com/chloecondon`
+  },
+  {
+    name: `Jen Looper`,
+    id: 3,
+    talkTitle: `"Microsoft Cloud Skills Challenge"`,
+    photo: require('./assets/images/speakers/jen-looper_400x400.png'),
+    twitterUrl: `https://twitter.com/jenlooper`
   }
 ]
 

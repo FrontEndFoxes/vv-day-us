@@ -3,16 +3,11 @@
     <v-col no-gutters>
       <VVHeroImageContainer class="text-center header-image" :image="HEADER_IMAGE">
         <div class="content">
-          <VVLogo class="homepage-logo" />
           <h1 class="vv-heading where-header">Austin, TX</h1>
-          <h1 class="vv-subheading when-header">March 5, 2020</h1>
+          <h1 class="vv-subheading where-header">March 5, 2020<br/>8:00 AM - 5:30 PM</h1>
           <h2>Capital Factory</h2>
           <h3>701 Brazos St, Austin, TX 78701</h3>
-          <h2
-            class="vv-subtitle"
-            style="margin-top: 10px;"
-          >A free one-day conference presented by foxy people who identify as women.</h2>
-        </div>
+         </div>
       </VVHeroImageContainer>
       <section class="vv-cta-buttons">
         <VVCtaButton link :href="REGISTRATION_URL" target="_blank">Register</VVCtaButton>
@@ -20,6 +15,11 @@
         <VVCtaButton link :href="FAQ_URL">FAQ</VVCtaButton>
       </section>
       <v-col cols="8" class="content-container">
+         <h2
+            class="vv-subtitle"
+            style="margin-top: 10px;"
+          >A free one-day conference presented by foxy people who identify as women. Open attendance for all people, regardless of gender! *</h2>
+        
         <VVPresenters>
           <template #header>
             <h1>Meet our Presenters</h1>
@@ -104,8 +104,8 @@ h4 {
 
 .header-image {
   width: 100%;
-  height: 60vh;
-  min-height: 490px;
+  height: 50vh;
+  min-height: 400px;
 
   h1,
   h2,
@@ -152,7 +152,6 @@ h4 {
   font-family: 'Futura-MediumItalic', 'Helvetica Neue', Arial, sans-serif;
   font-style: italic;
   font-weight: 400;
-  max-width: 390px;
   font-size: 1.2rem;
   margin: 20px auto 0;
 }

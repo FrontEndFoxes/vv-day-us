@@ -1,7 +1,7 @@
 <template>
-  <v-card>
+  <v-card height="200px">
     <v-list>
-      <v-list-item :key="workshop.id" @click>
+      <v-list-item :key="workshop.id">
         <v-list-item-avatar size="100">
           <v-img :src="workshop.photo"></v-img>
         </v-list-item-avatar>
@@ -10,6 +10,7 @@
           <h3>{{ workshop.name }}</h3>
 
           <h4>{{workshop.talkTitle}}</h4>
+          <p v-if="workshop.id == 2" style="padding-top:5px;font-style:italic">* women only</p>
         </v-list-item-content>
       </v-list-item>
     </v-list>
@@ -28,8 +29,8 @@ export default {
   }
 }
 </script>
-
 <style scoped>
 h3 {
-  margin-bottom: 5px;
+  padding-bottom: 20px;
 }
+</style>
