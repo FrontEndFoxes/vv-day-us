@@ -93,7 +93,7 @@ export const WORKSHOPS_DATA = [
 
 export const PRESENTERS_DATA = [
   {
-    name: `Sarah Drasner`,
+    name: `Sarah Drasner (remote)`,
     id: 6,
     talkTitle: `"The Art of Code Comments"`,
     photo: require('./assets/images/speakers/sarah-drasner_400x400.jpg'),
@@ -124,7 +124,7 @@ export const PRESENTERS_DATA = [
     twitterUrl: `https://twitter.com/michelecynowicz`
   },
   {
-    name: `Jess Sachs`,
+    name: `Jess Sachs (remote)`,
     id: 10,
     talkTitle: `"Avoiding a Rewrite: Techniques to Progressively Adopt Vue"`,
     photo: require('./assets/images/speakers/jess-sachs_400x400.png'),
