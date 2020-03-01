@@ -52,7 +52,7 @@ export const LIGHTNINGS_DATA = [
     photo: require('./assets/images/speakers/diana-rodriguez_400x400.png')
   },
   {
-    name: `Amarachi Amaechi`,
+    name: `Amarachi Amaechi (remote)`,
     id: 2,
     talkTitle: `"Networking the Right Way"`,
     twitterUrl: `https://twitter.com/AmarachiAmaechi`,
@@ -78,7 +78,7 @@ export const WORKSHOPS_DATA = [
   {
     name: `Kristin Ruben`,
     id: 2,
-    talkTitle: `"Build a Music App with the Vue 3 Composition API"`,
+    talkTitle: `"Getting Started with TypeScript for Vue 3"`,
     photo: require('./assets/images/speakers/kristin-ruben_400x400.jpg'),
     twitterUrl: `https://twitter.com/chloecondon`
   },
